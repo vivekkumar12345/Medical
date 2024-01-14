@@ -1,0 +1,742 @@
+﻿@font-face { 
+  font-family: Droid Sans; 
+    src: url('../fonts/DroidSans-webfont.eot'); 
+    src: local("Droid Sans"), url('../fonts/DroidSans-webfont.woff'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+.ss{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image:url(../images/bg.jpg);
+}
+html { 
+  height: 100%;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+.body { 
+  font: normal .80em 'Droid Sans', arial, sans-serif;
+  background: #FFF;
+  color: #000;
+}
+
+p { 
+  padding: 0 0 16px 0;
+  line-height: 1.7em;
+}
+
+img { 
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  color: #000;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;
+}
+
+h1, h2, h3 { 
+  font: normal 140% 'News Cycle', arial;
+  margin: 0 0 0px 0;
+  padding: 15px 0 5px 0;
+}
+
+h2 { 
+  font-size: 160%;
+  padding: 9px 0 5px 0;
+}
+
+h3 { 
+  font-size: 140%;
+  padding: 5px 0 0 0;
+}
+
+h4, h6 { 
+  padding: 0 0 5px 0;
+  font: normal 120% 'Droid Sans', arial, sans-serif;
+}
+
+h5, h6 { 
+  font: italic 100% 'Droid Sans', arial;
+  padding: 0 0 15px 0;
+}
+
+h6 { 
+  font: normal 100% 'Droid Sans', arial;
+}
+
+a, a:hover { 
+  outline: none;
+  text-decoration: none;
+  color: #C1FFFF;
+}
+
+a:hover { 
+ 
+}
+
+blockquote { 
+  margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+}
+
+ul { 
+  margin: 2px 0 22px 17px;
+}
+
+ul li { 
+  
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+ol { 
+  margin: 8px 0 22px 20px;
+}
+
+ol li { 
+  margin: 0 0 11px 0;
+}
+
+.left { 
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.right { 
+  float: right; 
+  width: auto;
+  margin-left: 10px;
+}
+
+.center { 
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#main, #container, #logo, #site_content, footer,#login { 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main {
+  background: transparent;
+}
+
+
+header { 
+  background: #1D1D1D ;
+  height: 90px;
+}
+
+.form-container{
+  border-radius: 2vh;
+  padding: 5vh;
+  box-shadow: 0px 0px 10px 0px;
+
+  margin-top: 10vh;
+
+}
+
+#logo { 
+  width: 100%;
+  height: 70px;
+  background:#a29a9a;
+  color: #888;
+  padding: 0px 0 0 0;  
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+#logo #logo_text { 
+  width: 90%;
+  left: 0;
+  padding: 0px 0px 0px 20px;
+  text-align: center;
+}
+
+#logo h1, #logo h2 { 
+  font: normal 300% 'News Cycle', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;
+  font-weight:bold;
+  text-align: center;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
+  padding: 0;
+  color: #80ADF4;
+  text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour { 
+  color: #B7F5F9;
+  text-shadow: 1px 1px #294701;
+}
+
+#logo_text a:hover .logo_colour { 
+  color: #FFF;
+}
+
+#logo_text h2 { 
+  font-size: 140%;
+  padding: 0 0 0 0;
+  color: #FFF;
+}
+
+#logo_text h3 { 
+  font-size: 140%;
+  padding: 0 0 0 0;
+  color: #FFF;
+  float:right;
+}
+
+nav { 
+  height: 35px;
+  margin: -44px 0 0 0;
+  color: #000066;
+  background: #000;
+  margin-top: 1px
+} 
+
+#menu_container { 
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+#site_content { 
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 0px 0 25px 0;} 
+
+#sidebar_container { 
+  float: left;
+  width: 0%;
+  margin: 0px 0 0 5px;
+}
+
+.sidebar { 
+  width: 100%;
+  margin: 0 0 100px 0;
+  padding: 0 15px 5px 600px;}
+  
+.sidebar h3, .content h1 { 
+  padding: 0 15px 20px 0;
+  font: 200% 'News Cycle', arial, sans-serif;
+  margin: 0 1px;
+}
+
+.sidebar h3 { 
+  padding: 4px 15px 9px 0;
+}
+
+.sidebar ul { 
+  margin: 0 0 15px 0;
+} 
+
+.sidebar li a, .sidebar li a:hover { 
+  color: #000;
+  text-decoration: none;
+} 
+
+.sidebar li a:hover { 
+  text-decoration: underline;
+} 
+
+.sidebar_item, .content_item { 
+  padding: 15px 0;
+}
+
+.content { 
+  text-align: left;
+  width: 100%;
+  margin: 0 0 0 0;
+  float:left;
+  font-size: 100%;
+  padding: 0px 0 0 0;
+  overflow-x:auto;
+  white-space:nowrap;
+  }
+  
+ .content th td { 
+  text-align: left;
+  width: 40%;
+  margin: 0 0 0 0;
+  float:left;
+  font-size: 100%;
+  padding: 0px 0 0 0;
+  overflow-x:auto;
+  white-space:nowrap;
+  }
+
+.live_tr tr td {
+
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.live_tr tr th {
+
+	text-align:center;
+	font-size:28px;
+	font-weight:bold;
+	background-color:#990000;
+	color:#FFFFFF;
+	text-decoration:underline;
+	padding:5px;
+}
+
+.live_tr_dvr {
+	background-color:#CCFF99;
+	
+}
+.live_tr_veh {
+	background-color:#CCCCFF;
+	
+}
+.live_tr_dty  td{
+	background-color:#330033;
+	color:#FFFFFF;
+	
+}
+
+.content1 { 
+  text-align: right;
+  width: 100%;
+  margin: 0 0 15px 0;
+  float: right;
+  font-size: 120%;
+  padding: 0px 0 0 0;}
+  
+.content ul { 
+  margin: 2px 0 22px 0px;
+}
+
+.content ul li, .sidebar ul li { 
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 28px;
+  line-height: 1.5em;
+}
+
+footer { 
+  font: 100% 'Droid Sans', arial, sans-serif;
+  height: 100px;
+  padding: 0px 0 5px 0;
+  text-align: center; 
+  background: #1D1D1D;
+  color: #FFF;
+  margin-bottom: 0px;
+  border-top: 6px solid #F5388C;
+  position:fixed;
+  top:96%;
+  width:100%;
+}
+
+footer p { 
+  line-height: 1.7em;
+  padding: 0 0 0px 0;
+}
+
+footer a { 
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer a:hover { 
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.form_settings { 
+  margin: 15px 0 0 0;
+}
+
+.form_settings p { 
+  padding: 0 0 4px 0;
+}
+
+.form_settings span { 
+  float: left; 
+  width: 200px; 
+  text-align: left;
+}
+  
+.form_settings input, .form_settings textarea { 
+  padding: 5px; 
+  width: 299px; 
+  font: 100% 'Droid Sans', arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+  
+.form_settings .submit { 
+  font: 100% 'Droid Sans', arial; 
+  border: 0; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #1A1225; 
+  color: #FFF;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+
+.form_settings textarea, .form_settings select { 
+  font: 100% 'Droid Sans', arial; 
+  width: 299px;
+}
+
+.form_settings select { 
+  width: 310px;
+}
+
+.form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+.separator { 
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;
+}
+  
+table { 
+  margin: 0px 0 0px 0;
+}
+
+table tr th, table tr td { 
+  
+  color: #FFF;
+  padding: 1px 1px;
+  text-align: center;
+  text-shadow: none;
+}
+  
+table tr td { 
+ 
+  color: #47433F;
+  /*border-top: 1px solid #FFF;*/
+}
+
+/* scroll to top */
+#scroll { 
+  position: fixed; 
+  top:93%;
+  width: 100%;
+  margin: 0 auto;
+  bottom: 15px; 
+  right: 0;
+  padding: 0;
+}
+  
+#scroll a { 
+  float: right;
+  margin: 0 0 0 0; 
+  padding: 0 0 0 0;
+}
+  
+#scroll a img { 
+  float: right;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+
+
+
+
+/**
+Stylesheet for SooperFish by www.SooperThemes.com
+Author: Jurriaan Roelofs
+**/
+
+/* Configuration of menu width */
+html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+  width: 150px;
+}
+
+html body ul.sf-menu ul ul { 
+  margin: 0 0 0 220px;
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,ul.sf-menu * { 
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu { 
+  display: block;
+  position: relative;
+  font-size: 15px;
+}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  
+ul.sf-menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+}
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+  
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;
+}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}
+
+/* autoArrows CSS */
+span.sf-arrow { 
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  display: block;
+  background: url(../images/arrows-white.png) no-repeat 0 0;
+  overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+  font-size: 1px;
+}
+
+ul ul span.sf-arrow { 
+  right: 10;
+  top: 20px;
+  background-position: 0 100%;
+}
+
+/* Theming the menu */
+ul#nav { 
+  float: left;
+}
+
+ul#nav ul { 
+  background: #000066;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
+
+ul#nav li a { 
+  padding:0px 15px 1px 10px;
+  font: 105 % 'News Cycle', arial, sans-serif;
+  text-shadow: 1px 1px #294701;
+  text-decoration: none;
+  text-transform:none;
+  color:#FFF;
+  margin-right: 0px;
+}
+
+ul#nav li a:hover,ul#nav li a:focus { 
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.un {
+ background-color:#000000;
+ color:#FFFFFF;
+ text-transform:uppercase;
+
+}
+.un th{
+ background-color:#000000;
+ color:#FFFFFF;
+ text-transform:uppercase;
+}
+
+#un{
+ background-color:#000000;
+ color:#FFFFFF;
+}
+
+.add_entry tr th { 
+  background: #555;
+  color: #FFF;
+  padding: 1px 1px;
+  text-align: center;
+  text-shadow: none;
+  text-transform:uppercase;
+}
+  
+.add_entry tr td {
+  background: #ffff;
+  color: #47433F;
+  text-align:left;
+  /*border-top: 1px solid #FFF;*/
+}
+.tbl_view tr th { 
+  background: #555;
+  color: #FFF;
+  padding: 1px 1px;
+  text-align: center;
+  text-shadow: none;
+  text-transform:uppercase;
+}
+  
+.tbl_view tr td {
+  background: #DDD;
+  color: #47433F;
+  text-align:center;
+  /*border-top: 1px solid #FFF;*/
+}
+
+err {
+ color:#990000;
+ background-color:#FFFFFF;
+ text-align:left;
+
+}
+#mem th{
+  background-color:#000000;
+  text-transform:uppercase;
+  text-align:left;
+  border-color:#333333;
+  border-width:thin;
+  
+}
+
+.final tr th { 
+  background: #000000;
+  color: #FFF;
+  padding: 1px 1px;
+  text-align: center;
+  text-shadow: none;
+  text-transform:uppercase;
+}
+  
+.final tr td {
+  background: #FFFFFF;
+  color: #47433F;
+  text-align:left;
+  border-color:#000000;
+  /*border-top: 1px solid #FFF;*/
+}
+
+#odd tr td{
+ background-color:#000000;
+ color:#FFFFFF;
+}
+
+
+a.info{
+position:inherit; /*this is the key*/
+color:#000;
+top:100px;
+left:50px;
+text-decoration:none;
+text-align:left;
+}
+
+a.info span{display: none}
+
+a.info:hover span{ /*the span will display just on :hover state*/
+display:block;
+position:absolute;
+top:160px;
+width:50em;
+border:5px solid #0cf;
+background-color:#cff; color:#000;
+text-align: left;
+padding:10px;
+} 
+
+a.info:hover span:after{ /*the span will display just on :hover state*/
+content:'';
+position:absolute;
+bottom:-11px;
+width:10px;
+height:10px;
+border-bottom:5px solid #0cf;
+border-right:5px solid #0cf;
+background:#cff;
+left:50%;
+margin-left:-5px;
+-moz-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+.table1
+{
+border-radius: 5px;box-shadow: 0px 0px 3px 3px gray;
+padding: 10px 0px;
+}
+.fa fa-user
+{
+  width: 50px;
+  height: 50px;
+
+}
